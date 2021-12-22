@@ -19,6 +19,7 @@ I spent time looking into a pure CSS solution and experimenting with a few diffe
 Here is a simplified example of using content to create a sliding underline:
 
 CSS:
+
                 nav{
                 max-width: 500px;
                 display: flex;
@@ -48,6 +49,7 @@ CSS:
                 }
 
 HTML:
+
                 <nav>
                     <a href="#">Item 1</a>
                     <a href="#">Item 2</a>
@@ -56,6 +58,7 @@ HTML:
                 </nav>
 
 JavaScript:
+
                 const navList = document.querySelector('nav');
                 function handleClick(e){
                 const listItems = document.querySelectorAll('.active');
