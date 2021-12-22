@@ -41,7 +41,7 @@ request.onload = function(){
     const underline = document.querySelector('.underline');
     // Select all a elements to make them available
     const navLinks = document.querySelectorAll('a');
-    // Create a function to pass into the event listner to handle what to do on click
+    // Create a function to pass into the event listener to handle what to do on click
     function handleClick(){
         // Loop through all a elements (navLinks) parents (li in this case) to see if there is a class of active
         // IF there is a class of active remove it from the parent (li)
@@ -74,11 +74,11 @@ request.onload = function(){
         underline.style.borderColor = "black";
         underline.style.transform = "none";
     }
-    // Looping through the navLinks once more but this time to add click event listener and pass in handleClick from above
+    // Looping through the navLinks once more but this time to add click event listener and pass in handleClick function from above
     for(let i = 0; i < navLinks.length; i++){
         navLinks[i].addEventListener('click', handleClick);
     }
-    // Create function to handle the recalculating the left and top on resizing of the browser window
+    // Create function to handle the recalculating of the left and top on resizing of the browser window
     function resizeUnderline() {
         // Making elements (li) with the class of active available
         const hasActive = document.querySelector('.active');
