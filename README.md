@@ -15,31 +15,31 @@ Here is the code of the linked example above. This is making use of content to c
 CSS:
 
                 nav{
-                max-width: 500px;
-                display: flex;
-                justify-content: space-around;
+                  max-width: 500px;
+                  display: flex;
+                  justify-content: space-around;
                 }
                 nav a {
-                font-family: sans-serif;
-                text-decoration: none;
-                color: gray;
+                  font-family: sans-serif;
+                  text-decoration: none;
+                  color: gray;
                 }
                 nav a::focus {
-                transition: 1s ease-in-out;
+                  transition: 1s ease-in-out;
                 }
                 nav a::after {
-                content: "";
-                display: block;
-                margin-bottom: 11px;
-                border-bottom: solid 1px blue;
-                transform: scaleX(0);
-                transform-origin: 200%;
-                transition: transform 1s cubic-bezier(0.57, 0.21, 0.7, 1.25);
+                  content: "";
+                  display: block;
+                  margin-bottom: 11px;
+                  border-bottom: solid 1px blue;
+                  transform: scaleX(0);
+                  transform-origin: 200%;
+                  transition: transform 1s cubic-bezier(0.57, 0.21, 0.7, 1.25);
                 }
                 nav a.active::after {
-                transform: scaleX(1);
-                transform-origin: -200%;
-                transition: transform 1s cubic-bezier(0.57, 0.21, 0.7, 1.25);
+                  transform: scaleX(1);
+                  transform-origin: -200%;
+                  transition: transform 1s cubic-bezier(0.57, 0.21, 0.7, 1.25);
                 }
 
 HTML:
