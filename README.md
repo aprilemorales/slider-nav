@@ -1,8 +1,8 @@
 # Slider Nav
 
-This is the repo where the submission for the Slider Nav test by April Morales can be found. 
+This is the repo where the submission for the Slider Nav test by April Morales can be found. I will also provide a link in my email submission to a live version I hosted in my AWS S3 bucket for quick access. 
 
-I have left comments throughout my code to help give an explaination of what was being done.
+I have left comments throughout my code to help give an explaination of what was being done and for documentation purposes.
 
 ## Challenges
 
