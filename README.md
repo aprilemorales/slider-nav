@@ -4,11 +4,11 @@ This is the repo where the submission for the Slider Nav test by April Morales c
 
 I have left comments throughout my code to help give an explaination of what was being done and for documentation purposes.
 
-## Challenges
+## The Challenge
 
 I spent time looking into a pure CSS solution and even experimenting with a few different things (borders, content, etc.). Unfortunately none of the pure CSS solutions I came up with worked exactly as I had hoped. Most felt semi close but still not right. Admittedly some were a bit janky.
 
-See one example I came up with in action on JSFiddle: [https://jsfiddle.net/fywvxue1](https://jsfiddle.net/fywvxue1)
+See one example I came up with. You can see it in action here on JSFiddle: [https://jsfiddle.net/fywvxue1](https://jsfiddle.net/fywvxue1)
 
 Here is the code of the linked example above. This is making use of content to create a sliding underline:
 
@@ -63,7 +63,7 @@ JavaScript:
                 }
                 navList.addEventListener('click', handleClick);
                 
-## Notes
+## Notes and Solution
 
 This was all completed with HTML, CSS and JavaScript. There were no use of libraries so this is all vanilla versions of CSS and JavaScript.
 
@@ -79,7 +79,7 @@ While the tutorial was followed, the code was modified to fit with in the struct
 
 I took time to look up the documentation for the things I was not familiar with. I felt it was important to read a bit deeper into and understand them. The tutorial gives a high level overview of what is happening and how things work. However, I felt it wasn't enough so I added in detailed comments of what each part is doing based on what I learned and investigated.
 
-## Bonus
+## Bonus Notes
 I was going to try to tackle the Bonus next. However, for the sake of time I will stop here. 
 
 Summary of potential next steps: 
