@@ -67,9 +67,9 @@ JavaScript:
 
 This was all completed with HTML, CSS and JavaScript. There were no use of libraries so this is all vanilla versions of CSS and JavaScript.
 
-I first set up a basic HTML file for the structure of the nav and it's elements. Then I created my JavaScript file so I could first pull in the nav items from the JSON object / file. After iterating through, accessing the items in the JSON object and the creating elements for the items I then styled everything.
+I first set up a basic HTML file for the structure of the nav and it's elements. Then I created my JavaScript file so I could first pull in the nav items from the JSON object / file. After iterating through, accessing the items in the JSON object and then creating elements for the items I then finally styled everything.
 
-A tutorial was used to help with the sliding underline for the nav. I stumbled upon this tutotrial when looking into a CSS and JavaScript solution or something to point me in the right direction. Notes giving credit to the author and the link to the tutoral can be found in nav-bar.js file.
+A tutorial was used to help with the sliding underline for the nav. I stumbled upon this tutotrial when looking into a CSS and JavaScript solution or something to point me in the right direction. This was after hitting a dead end with the pure CSS plan. Notes giving credit to the author and the link to the tutoral can be found in nav-bar.js file.
 
 Adding credit here for good measure as well: 
 
