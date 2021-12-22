@@ -92,4 +92,4 @@ Summary of potential next steps:
 
 ### Thank You
 
-If you made it in reading down this far, thank you for your time and consideration. I wanted to add some insight and some detail about my process here. Overall this was a fun but challanging test. I learned new things and I'm happy to have had the opportunity to be tested!
+If you made it in reading down this far, thank you for your time and consideration. I wanted to add some insight and some detail about my process here. Overall this was a fun but challenging test. I learned new things and I'm happy to have had the opportunity to be tested!
